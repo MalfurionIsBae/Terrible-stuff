@@ -1,0 +1,3 @@
+/home/ziggy/game/build/CMakeFiles/game.dir
+/home/ziggy/game/build/CMakeFiles/edit_cache.dir
+/home/ziggy/game/build/CMakeFiles/rebuild_cache.dir
