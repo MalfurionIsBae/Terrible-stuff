@@ -1,7 +1,7 @@
-CMakeFiles/game.dir/boss/dragon.cpp.o: /home/ziggy/game/boss/dragon.cpp \
- /usr/include/stdc-predef.h /home/ziggy/game/boss/dragon.h \
- /home/ziggy/game/party/party.h /home/ziggy/game/klasy/warrior/warrior.h \
- /home/ziggy/game/klasy/character.h /usr/include/c++/12/iostream \
+CMakeFiles/game.dir/klasy/mage/mage.cpp.o: \
+ /home/ziggy/game/klasy/mage/mage.cpp /usr/include/stdc-predef.h \
+ /home/ziggy/game/klasy/mage/mage.h /home/ziggy/game/klasy/character.h \
+ /usr/include/c++/12/iostream \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -152,6 +152,4 @@ CMakeFiles/game.dir/boss/dragon.cpp.o: /home/ziggy/game/boss/dragon.cpp \
  /usr/include/c++/12/bits/stl_uninitialized.h \
  /usr/include/c++/12/bits/stl_vector.h \
  /usr/include/c++/12/bits/stl_bvector.h \
- /usr/include/c++/12/bits/vector.tcc /home/ziggy/game/klasy/ability.h \
- /home/ziggy/game/klasy/mage/mage.h \
- /home/ziggy/game/klasy/priest/priest.h
+ /usr/include/c++/12/bits/vector.tcc /home/ziggy/game/klasy/ability.h

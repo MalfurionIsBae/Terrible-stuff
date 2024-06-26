@@ -97,47 +97,47 @@ CMakeFiles/game.dir/klasy/character.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/klasy/character.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ziggy/game/klasy/character.cpp -o CMakeFiles/game.dir/klasy/character.cpp.s
 
-CMakeFiles/game.dir/klasy/warrior.cpp.o: CMakeFiles/game.dir/flags.make
-CMakeFiles/game.dir/klasy/warrior.cpp.o: /home/ziggy/game/klasy/warrior.cpp
-CMakeFiles/game.dir/klasy/warrior.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ziggy/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/game.dir/klasy/warrior.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/klasy/warrior.cpp.o -MF CMakeFiles/game.dir/klasy/warrior.cpp.o.d -o CMakeFiles/game.dir/klasy/warrior.cpp.o -c /home/ziggy/game/klasy/warrior.cpp
+CMakeFiles/game.dir/klasy/warrior/warrior.cpp.o: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/klasy/warrior/warrior.cpp.o: /home/ziggy/game/klasy/warrior/warrior.cpp
+CMakeFiles/game.dir/klasy/warrior/warrior.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ziggy/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/game.dir/klasy/warrior/warrior.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/klasy/warrior/warrior.cpp.o -MF CMakeFiles/game.dir/klasy/warrior/warrior.cpp.o.d -o CMakeFiles/game.dir/klasy/warrior/warrior.cpp.o -c /home/ziggy/game/klasy/warrior/warrior.cpp
 
-CMakeFiles/game.dir/klasy/warrior.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/klasy/warrior.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ziggy/game/klasy/warrior.cpp > CMakeFiles/game.dir/klasy/warrior.cpp.i
+CMakeFiles/game.dir/klasy/warrior/warrior.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/klasy/warrior/warrior.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ziggy/game/klasy/warrior/warrior.cpp > CMakeFiles/game.dir/klasy/warrior/warrior.cpp.i
 
-CMakeFiles/game.dir/klasy/warrior.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/klasy/warrior.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ziggy/game/klasy/warrior.cpp -o CMakeFiles/game.dir/klasy/warrior.cpp.s
+CMakeFiles/game.dir/klasy/warrior/warrior.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/klasy/warrior/warrior.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ziggy/game/klasy/warrior/warrior.cpp -o CMakeFiles/game.dir/klasy/warrior/warrior.cpp.s
 
-CMakeFiles/game.dir/klasy/mage.cpp.o: CMakeFiles/game.dir/flags.make
-CMakeFiles/game.dir/klasy/mage.cpp.o: /home/ziggy/game/klasy/mage.cpp
-CMakeFiles/game.dir/klasy/mage.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ziggy/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/game.dir/klasy/mage.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/klasy/mage.cpp.o -MF CMakeFiles/game.dir/klasy/mage.cpp.o.d -o CMakeFiles/game.dir/klasy/mage.cpp.o -c /home/ziggy/game/klasy/mage.cpp
+CMakeFiles/game.dir/klasy/mage/mage.cpp.o: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/klasy/mage/mage.cpp.o: /home/ziggy/game/klasy/mage/mage.cpp
+CMakeFiles/game.dir/klasy/mage/mage.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ziggy/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/game.dir/klasy/mage/mage.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/klasy/mage/mage.cpp.o -MF CMakeFiles/game.dir/klasy/mage/mage.cpp.o.d -o CMakeFiles/game.dir/klasy/mage/mage.cpp.o -c /home/ziggy/game/klasy/mage/mage.cpp
 
-CMakeFiles/game.dir/klasy/mage.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/klasy/mage.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ziggy/game/klasy/mage.cpp > CMakeFiles/game.dir/klasy/mage.cpp.i
+CMakeFiles/game.dir/klasy/mage/mage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/klasy/mage/mage.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ziggy/game/klasy/mage/mage.cpp > CMakeFiles/game.dir/klasy/mage/mage.cpp.i
 
-CMakeFiles/game.dir/klasy/mage.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/klasy/mage.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ziggy/game/klasy/mage.cpp -o CMakeFiles/game.dir/klasy/mage.cpp.s
+CMakeFiles/game.dir/klasy/mage/mage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/klasy/mage/mage.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ziggy/game/klasy/mage/mage.cpp -o CMakeFiles/game.dir/klasy/mage/mage.cpp.s
 
-CMakeFiles/game.dir/klasy/priest.cpp.o: CMakeFiles/game.dir/flags.make
-CMakeFiles/game.dir/klasy/priest.cpp.o: /home/ziggy/game/klasy/priest.cpp
-CMakeFiles/game.dir/klasy/priest.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ziggy/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/game.dir/klasy/priest.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/klasy/priest.cpp.o -MF CMakeFiles/game.dir/klasy/priest.cpp.o.d -o CMakeFiles/game.dir/klasy/priest.cpp.o -c /home/ziggy/game/klasy/priest.cpp
+CMakeFiles/game.dir/klasy/priest/priest.cpp.o: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/klasy/priest/priest.cpp.o: /home/ziggy/game/klasy/priest/priest.cpp
+CMakeFiles/game.dir/klasy/priest/priest.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ziggy/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/game.dir/klasy/priest/priest.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/klasy/priest/priest.cpp.o -MF CMakeFiles/game.dir/klasy/priest/priest.cpp.o.d -o CMakeFiles/game.dir/klasy/priest/priest.cpp.o -c /home/ziggy/game/klasy/priest/priest.cpp
 
-CMakeFiles/game.dir/klasy/priest.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/klasy/priest.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ziggy/game/klasy/priest.cpp > CMakeFiles/game.dir/klasy/priest.cpp.i
+CMakeFiles/game.dir/klasy/priest/priest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/klasy/priest/priest.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ziggy/game/klasy/priest/priest.cpp > CMakeFiles/game.dir/klasy/priest/priest.cpp.i
 
-CMakeFiles/game.dir/klasy/priest.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/klasy/priest.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ziggy/game/klasy/priest.cpp -o CMakeFiles/game.dir/klasy/priest.cpp.s
+CMakeFiles/game.dir/klasy/priest/priest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/klasy/priest/priest.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ziggy/game/klasy/priest/priest.cpp -o CMakeFiles/game.dir/klasy/priest/priest.cpp.s
 
 CMakeFiles/game.dir/party/party.cpp.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/party/party.cpp.o: /home/ziggy/game/party/party.cpp
@@ -185,9 +185,9 @@ CMakeFiles/game.dir/encounter/encounter.cpp.s: cmake_force
 game_OBJECTS = \
 "CMakeFiles/game.dir/main.cpp.o" \
 "CMakeFiles/game.dir/klasy/character.cpp.o" \
-"CMakeFiles/game.dir/klasy/warrior.cpp.o" \
-"CMakeFiles/game.dir/klasy/mage.cpp.o" \
-"CMakeFiles/game.dir/klasy/priest.cpp.o" \
+"CMakeFiles/game.dir/klasy/warrior/warrior.cpp.o" \
+"CMakeFiles/game.dir/klasy/mage/mage.cpp.o" \
+"CMakeFiles/game.dir/klasy/priest/priest.cpp.o" \
 "CMakeFiles/game.dir/party/party.cpp.o" \
 "CMakeFiles/game.dir/boss/dragon.cpp.o" \
 "CMakeFiles/game.dir/encounter/encounter.cpp.o"
@@ -197,9 +197,9 @@ game_EXTERNAL_OBJECTS =
 
 game: CMakeFiles/game.dir/main.cpp.o
 game: CMakeFiles/game.dir/klasy/character.cpp.o
-game: CMakeFiles/game.dir/klasy/warrior.cpp.o
-game: CMakeFiles/game.dir/klasy/mage.cpp.o
-game: CMakeFiles/game.dir/klasy/priest.cpp.o
+game: CMakeFiles/game.dir/klasy/warrior/warrior.cpp.o
+game: CMakeFiles/game.dir/klasy/mage/mage.cpp.o
+game: CMakeFiles/game.dir/klasy/priest/priest.cpp.o
 game: CMakeFiles/game.dir/party/party.cpp.o
 game: CMakeFiles/game.dir/boss/dragon.cpp.o
 game: CMakeFiles/game.dir/encounter/encounter.cpp.o

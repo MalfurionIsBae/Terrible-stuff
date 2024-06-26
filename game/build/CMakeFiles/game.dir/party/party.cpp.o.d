@@ -1,7 +1,7 @@
 CMakeFiles/game.dir/party/party.cpp.o: /home/ziggy/game/party/party.cpp \
  /usr/include/stdc-predef.h /home/ziggy/game/party/party.h \
- /home/ziggy/game/klasy/warrior.h /home/ziggy/game/klasy/character.h \
- /usr/include/c++/12/iostream \
+ /home/ziggy/game/klasy/warrior/warrior.h \
+ /home/ziggy/game/klasy/character.h /usr/include/c++/12/iostream \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -148,5 +148,10 @@ CMakeFiles/game.dir/party/party.cpp.o: /home/ziggy/game/party/party.cpp \
  /usr/include/c++/12/bits/locale_facets.tcc \
  /usr/include/c++/12/bits/basic_ios.tcc \
  /usr/include/c++/12/bits/ostream.tcc /usr/include/c++/12/istream \
- /usr/include/c++/12/bits/istream.tcc /home/ziggy/game/klasy/mage.h \
- /home/ziggy/game/klasy/priest.h
+ /usr/include/c++/12/bits/istream.tcc /usr/include/c++/12/vector \
+ /usr/include/c++/12/bits/stl_uninitialized.h \
+ /usr/include/c++/12/bits/stl_vector.h \
+ /usr/include/c++/12/bits/stl_bvector.h \
+ /usr/include/c++/12/bits/vector.tcc /home/ziggy/game/klasy/ability.h \
+ /home/ziggy/game/klasy/mage/mage.h \
+ /home/ziggy/game/klasy/priest/priest.h

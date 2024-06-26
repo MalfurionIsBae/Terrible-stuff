@@ -201,77 +201,77 @@ klasy/character.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/klasy/character.cpp.s
 .PHONY : klasy/character.cpp.s
 
-klasy/mage.o: klasy/mage.cpp.o
-.PHONY : klasy/mage.o
+klasy/mage/mage.o: klasy/mage/mage.cpp.o
+.PHONY : klasy/mage/mage.o
 
 # target to build an object file
-klasy/mage.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/klasy/mage.cpp.o
-.PHONY : klasy/mage.cpp.o
+klasy/mage/mage.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/klasy/mage/mage.cpp.o
+.PHONY : klasy/mage/mage.cpp.o
 
-klasy/mage.i: klasy/mage.cpp.i
-.PHONY : klasy/mage.i
+klasy/mage/mage.i: klasy/mage/mage.cpp.i
+.PHONY : klasy/mage/mage.i
 
 # target to preprocess a source file
-klasy/mage.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/klasy/mage.cpp.i
-.PHONY : klasy/mage.cpp.i
+klasy/mage/mage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/klasy/mage/mage.cpp.i
+.PHONY : klasy/mage/mage.cpp.i
 
-klasy/mage.s: klasy/mage.cpp.s
-.PHONY : klasy/mage.s
+klasy/mage/mage.s: klasy/mage/mage.cpp.s
+.PHONY : klasy/mage/mage.s
 
 # target to generate assembly for a file
-klasy/mage.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/klasy/mage.cpp.s
-.PHONY : klasy/mage.cpp.s
+klasy/mage/mage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/klasy/mage/mage.cpp.s
+.PHONY : klasy/mage/mage.cpp.s
 
-klasy/priest.o: klasy/priest.cpp.o
-.PHONY : klasy/priest.o
+klasy/priest/priest.o: klasy/priest/priest.cpp.o
+.PHONY : klasy/priest/priest.o
 
 # target to build an object file
-klasy/priest.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/klasy/priest.cpp.o
-.PHONY : klasy/priest.cpp.o
+klasy/priest/priest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/klasy/priest/priest.cpp.o
+.PHONY : klasy/priest/priest.cpp.o
 
-klasy/priest.i: klasy/priest.cpp.i
-.PHONY : klasy/priest.i
+klasy/priest/priest.i: klasy/priest/priest.cpp.i
+.PHONY : klasy/priest/priest.i
 
 # target to preprocess a source file
-klasy/priest.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/klasy/priest.cpp.i
-.PHONY : klasy/priest.cpp.i
+klasy/priest/priest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/klasy/priest/priest.cpp.i
+.PHONY : klasy/priest/priest.cpp.i
 
-klasy/priest.s: klasy/priest.cpp.s
-.PHONY : klasy/priest.s
+klasy/priest/priest.s: klasy/priest/priest.cpp.s
+.PHONY : klasy/priest/priest.s
 
 # target to generate assembly for a file
-klasy/priest.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/klasy/priest.cpp.s
-.PHONY : klasy/priest.cpp.s
+klasy/priest/priest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/klasy/priest/priest.cpp.s
+.PHONY : klasy/priest/priest.cpp.s
 
-klasy/warrior.o: klasy/warrior.cpp.o
-.PHONY : klasy/warrior.o
+klasy/warrior/warrior.o: klasy/warrior/warrior.cpp.o
+.PHONY : klasy/warrior/warrior.o
 
 # target to build an object file
-klasy/warrior.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/klasy/warrior.cpp.o
-.PHONY : klasy/warrior.cpp.o
+klasy/warrior/warrior.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/klasy/warrior/warrior.cpp.o
+.PHONY : klasy/warrior/warrior.cpp.o
 
-klasy/warrior.i: klasy/warrior.cpp.i
-.PHONY : klasy/warrior.i
+klasy/warrior/warrior.i: klasy/warrior/warrior.cpp.i
+.PHONY : klasy/warrior/warrior.i
 
 # target to preprocess a source file
-klasy/warrior.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/klasy/warrior.cpp.i
-.PHONY : klasy/warrior.cpp.i
+klasy/warrior/warrior.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/klasy/warrior/warrior.cpp.i
+.PHONY : klasy/warrior/warrior.cpp.i
 
-klasy/warrior.s: klasy/warrior.cpp.s
-.PHONY : klasy/warrior.s
+klasy/warrior/warrior.s: klasy/warrior/warrior.cpp.s
+.PHONY : klasy/warrior/warrior.s
 
 # target to generate assembly for a file
-klasy/warrior.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/klasy/warrior.cpp.s
-.PHONY : klasy/warrior.cpp.s
+klasy/warrior/warrior.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/klasy/warrior/warrior.cpp.s
+.PHONY : klasy/warrior/warrior.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -339,15 +339,15 @@ help:
 	@echo "... klasy/character.o"
 	@echo "... klasy/character.i"
 	@echo "... klasy/character.s"
-	@echo "... klasy/mage.o"
-	@echo "... klasy/mage.i"
-	@echo "... klasy/mage.s"
-	@echo "... klasy/priest.o"
-	@echo "... klasy/priest.i"
-	@echo "... klasy/priest.s"
-	@echo "... klasy/warrior.o"
-	@echo "... klasy/warrior.i"
-	@echo "... klasy/warrior.s"
+	@echo "... klasy/mage/mage.o"
+	@echo "... klasy/mage/mage.i"
+	@echo "... klasy/mage/mage.s"
+	@echo "... klasy/priest/priest.o"
+	@echo "... klasy/priest/priest.i"
+	@echo "... klasy/priest/priest.s"
+	@echo "... klasy/warrior/warrior.o"
+	@echo "... klasy/warrior/warrior.i"
+	@echo "... klasy/warrior/warrior.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

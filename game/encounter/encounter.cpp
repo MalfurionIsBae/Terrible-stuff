@@ -8,6 +8,16 @@ void Encounter::begin()
     heroes.new_party();
     heroes.show_party();
 
+    // TO BE REPLACED WITH A FUNCTION
+    for(int i=0;i<heroes.getPartySize();i++)
+    {
+        character* hero = heroes.getMember(i);
+        hero->setFriendlies(heroes.getParty(), heroes.getPartySize());
+        hero->setTargets(&boss);
+        hero->f_size = heroes.getPartySize();
+    }
+
+
     cout << "----------------------------------------------------" << endl << "THE FIGHT BEGINS" << endl;
     while(boss.is_alive() && heroes.is_alive())
     {
@@ -21,72 +31,16 @@ void Encounter::begin()
             if(hero->is_alive() == false) { cout << hero->getName() << " cannot fight any more! \n" << endl; continue; }
             cout << endl << "IT IS NOW " << hero->getName() <<"'s - " << hero->getKlass() << " TURN \n" << endl;
           
-            if(hero->getKlass() == "Warrior")
+            hero->show_abilities();
+            int p;
+            while(true)
             {
-                Warrior* warr = dynamic_cast<Warrior*>(hero);
-                if(warr == nullptr) { cerr << "Error - failed cast to subclass \n"; continue; }
-                warr->show_stats();
-                warr->show_abilities();
-
-                int p = 0;
-                while(p < 1 || p > 3)
-                {
-                    cout << " Choose number 1-3!\n";
-                    cin >> p;
-                    cout << endl;
-                }
-
-                if(p == 1) warr->bash(&boss);
-                else if(p == 2) warr->reckless_strike(&boss);
-                else warr->overpower(&boss);
+                cin >> p;
+                if(cin.fail() || p < 0 || p >= hero->abilityCount() ) { cerr << "Wrong input! Try again!\n"; continue; }
+                break;
             }
-            else if(hero->getKlass() == "Mage")
-            {
-                Mage* mag = dynamic_cast<Mage*>(hero);
-                if(mag == nullptr) { cerr << "Error - failed cast to subclass \n"; continue; }
-                mag->show_stats();
-                mag->show_abilities();
-
-                int p = 0;
-                while(p < 1 || p > 3)
-                {
-                    cout << " Choose number 1-3!\n";
-                    cin >> p;
-                    cout << endl;
-                }
-
-                if(p == 1) mag->arcane_missile(&boss);
-                else if(p == 2) mag->inner_focus();
-                else mag->fireball(&boss);
-            }
-            else if(hero->getKlass() == "Priest")
-            {
-                Priest* pr = dynamic_cast<Priest*>(hero);
-                if(pr == nullptr) { cerr << "Error - failed cast to subclass \n"; continue; }
-                pr->show_stats();
-                pr->show_abilities();
-
-                int p = 0;
-                while(p < 1 || p > 2)
-                {
-                    cout << " Choose number 1-2!\n";
-                    cin >> p;
-                    cout << endl;
-                }
-
-                if(p == 1)
-                {
-                    int i = 0;
-                    cout << "Choose party member from 1 - " << heroes.getPartySize() << endl;
-                    while(i <= 0 || i > heroes.getPartySize())
-                    {
-                        cin.clear();
-                        cin >> i;
-                    }
-                    pr->heal(heroes.getMember(i-1));
-                }
-                else pr->mass_heal(heroes.getParty(), heroes.getPartySize());
-            }
+            Ability* ab = hero->getAbility(p);
+            ab->use();
         }
     }
 

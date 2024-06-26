@@ -6,7 +6,7 @@ CMakeFiles/game.dir/boss/dragon.cpp.o
  /usr/include/stdc-predef.h
  /home/ziggy/game/boss/dragon.h
  /home/ziggy/game/party/party.h
- /home/ziggy/game/klasy/warrior.h
+ /home/ziggy/game/klasy/warrior/warrior.h
  /home/ziggy/game/klasy/character.h
  /usr/include/c++/12/iostream
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h
@@ -189,8 +189,14 @@ CMakeFiles/game.dir/boss/dragon.cpp.o
  /usr/include/c++/12/bits/ostream.tcc
  /usr/include/c++/12/istream
  /usr/include/c++/12/bits/istream.tcc
- /home/ziggy/game/klasy/mage.h
- /home/ziggy/game/klasy/priest.h
+ /usr/include/c++/12/vector
+ /usr/include/c++/12/bits/stl_uninitialized.h
+ /usr/include/c++/12/bits/stl_vector.h
+ /usr/include/c++/12/bits/stl_bvector.h
+ /usr/include/c++/12/bits/vector.tcc
+ /home/ziggy/game/klasy/ability.h
+ /home/ziggy/game/klasy/mage/mage.h
+ /home/ziggy/game/klasy/priest/priest.h
 
 CMakeFiles/game.dir/encounter/encounter.cpp.o
  /home/ziggy/game/encounter/encounter.cpp
@@ -198,7 +204,7 @@ CMakeFiles/game.dir/encounter/encounter.cpp.o
  /home/ziggy/game/encounter/encounter.h
  /home/ziggy/game/boss/dragon.h
  /home/ziggy/game/party/party.h
- /home/ziggy/game/klasy/warrior.h
+ /home/ziggy/game/klasy/warrior/warrior.h
  /home/ziggy/game/klasy/character.h
  /usr/include/c++/12/iostream
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h
@@ -381,8 +387,14 @@ CMakeFiles/game.dir/encounter/encounter.cpp.o
  /usr/include/c++/12/bits/ostream.tcc
  /usr/include/c++/12/istream
  /usr/include/c++/12/bits/istream.tcc
- /home/ziggy/game/klasy/mage.h
- /home/ziggy/game/klasy/priest.h
+ /usr/include/c++/12/vector
+ /usr/include/c++/12/bits/stl_uninitialized.h
+ /usr/include/c++/12/bits/stl_vector.h
+ /usr/include/c++/12/bits/stl_bvector.h
+ /usr/include/c++/12/bits/vector.tcc
+ /home/ziggy/game/klasy/ability.h
+ /home/ziggy/game/klasy/mage/mage.h
+ /home/ziggy/game/klasy/priest/priest.h
 
 CMakeFiles/game.dir/klasy/character.cpp.o
  /home/ziggy/game/klasy/character.cpp
@@ -569,11 +581,17 @@ CMakeFiles/game.dir/klasy/character.cpp.o
  /usr/include/c++/12/bits/ostream.tcc
  /usr/include/c++/12/istream
  /usr/include/c++/12/bits/istream.tcc
+ /usr/include/c++/12/vector
+ /usr/include/c++/12/bits/stl_uninitialized.h
+ /usr/include/c++/12/bits/stl_vector.h
+ /usr/include/c++/12/bits/stl_bvector.h
+ /usr/include/c++/12/bits/vector.tcc
+ /home/ziggy/game/klasy/ability.h
 
-CMakeFiles/game.dir/klasy/mage.cpp.o
- /home/ziggy/game/klasy/mage.cpp
+CMakeFiles/game.dir/klasy/mage/mage.cpp.o
+ /home/ziggy/game/klasy/mage/mage.cpp
  /usr/include/stdc-predef.h
- /home/ziggy/game/klasy/mage.h
+ /home/ziggy/game/klasy/mage/mage.h
  /home/ziggy/game/klasy/character.h
  /usr/include/c++/12/iostream
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h
@@ -756,11 +774,17 @@ CMakeFiles/game.dir/klasy/mage.cpp.o
  /usr/include/c++/12/bits/ostream.tcc
  /usr/include/c++/12/istream
  /usr/include/c++/12/bits/istream.tcc
+ /usr/include/c++/12/vector
+ /usr/include/c++/12/bits/stl_uninitialized.h
+ /usr/include/c++/12/bits/stl_vector.h
+ /usr/include/c++/12/bits/stl_bvector.h
+ /usr/include/c++/12/bits/vector.tcc
+ /home/ziggy/game/klasy/ability.h
 
-CMakeFiles/game.dir/klasy/priest.cpp.o
- /home/ziggy/game/klasy/priest.cpp
+CMakeFiles/game.dir/klasy/priest/priest.cpp.o
+ /home/ziggy/game/klasy/priest/priest.cpp
  /usr/include/stdc-predef.h
- /home/ziggy/game/klasy/priest.h
+ /home/ziggy/game/klasy/priest/priest.h
  /home/ziggy/game/klasy/character.h
  /usr/include/c++/12/iostream
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h
@@ -943,11 +967,17 @@ CMakeFiles/game.dir/klasy/priest.cpp.o
  /usr/include/c++/12/bits/ostream.tcc
  /usr/include/c++/12/istream
  /usr/include/c++/12/bits/istream.tcc
+ /usr/include/c++/12/vector
+ /usr/include/c++/12/bits/stl_uninitialized.h
+ /usr/include/c++/12/bits/stl_vector.h
+ /usr/include/c++/12/bits/stl_bvector.h
+ /usr/include/c++/12/bits/vector.tcc
+ /home/ziggy/game/klasy/ability.h
 
-CMakeFiles/game.dir/klasy/warrior.cpp.o
- /home/ziggy/game/klasy/warrior.cpp
+CMakeFiles/game.dir/klasy/warrior/warrior.cpp.o
+ /home/ziggy/game/klasy/warrior/warrior.cpp
  /usr/include/stdc-predef.h
- /home/ziggy/game/klasy/warrior.h
+ /home/ziggy/game/klasy/warrior/warrior.h
  /home/ziggy/game/klasy/character.h
  /usr/include/c++/12/iostream
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h
@@ -1130,6 +1160,12 @@ CMakeFiles/game.dir/klasy/warrior.cpp.o
  /usr/include/c++/12/bits/ostream.tcc
  /usr/include/c++/12/istream
  /usr/include/c++/12/bits/istream.tcc
+ /usr/include/c++/12/vector
+ /usr/include/c++/12/bits/stl_uninitialized.h
+ /usr/include/c++/12/bits/stl_vector.h
+ /usr/include/c++/12/bits/stl_bvector.h
+ /usr/include/c++/12/bits/vector.tcc
+ /home/ziggy/game/klasy/ability.h
 
 CMakeFiles/game.dir/main.cpp.o
  /home/ziggy/game/main.cpp
@@ -1137,7 +1173,7 @@ CMakeFiles/game.dir/main.cpp.o
  /home/ziggy/game/encounter/encounter.h
  /home/ziggy/game/boss/dragon.h
  /home/ziggy/game/party/party.h
- /home/ziggy/game/klasy/warrior.h
+ /home/ziggy/game/klasy/warrior/warrior.h
  /home/ziggy/game/klasy/character.h
  /usr/include/c++/12/iostream
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h
@@ -1320,14 +1356,20 @@ CMakeFiles/game.dir/main.cpp.o
  /usr/include/c++/12/bits/ostream.tcc
  /usr/include/c++/12/istream
  /usr/include/c++/12/bits/istream.tcc
- /home/ziggy/game/klasy/mage.h
- /home/ziggy/game/klasy/priest.h
+ /usr/include/c++/12/vector
+ /usr/include/c++/12/bits/stl_uninitialized.h
+ /usr/include/c++/12/bits/stl_vector.h
+ /usr/include/c++/12/bits/stl_bvector.h
+ /usr/include/c++/12/bits/vector.tcc
+ /home/ziggy/game/klasy/ability.h
+ /home/ziggy/game/klasy/mage/mage.h
+ /home/ziggy/game/klasy/priest/priest.h
 
 CMakeFiles/game.dir/party/party.cpp.o
  /home/ziggy/game/party/party.cpp
  /usr/include/stdc-predef.h
  /home/ziggy/game/party/party.h
- /home/ziggy/game/klasy/warrior.h
+ /home/ziggy/game/klasy/warrior/warrior.h
  /home/ziggy/game/klasy/character.h
  /usr/include/c++/12/iostream
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h
@@ -1510,6 +1552,12 @@ CMakeFiles/game.dir/party/party.cpp.o
  /usr/include/c++/12/bits/ostream.tcc
  /usr/include/c++/12/istream
  /usr/include/c++/12/bits/istream.tcc
- /home/ziggy/game/klasy/mage.h
- /home/ziggy/game/klasy/priest.h
+ /usr/include/c++/12/vector
+ /usr/include/c++/12/bits/stl_uninitialized.h
+ /usr/include/c++/12/bits/stl_vector.h
+ /usr/include/c++/12/bits/stl_bvector.h
+ /usr/include/c++/12/bits/vector.tcc
+ /home/ziggy/game/klasy/ability.h
+ /home/ziggy/game/klasy/mage/mage.h
+ /home/ziggy/game/klasy/priest/priest.h
 
